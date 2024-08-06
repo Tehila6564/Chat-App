@@ -1,0 +1,1 @@
+ C:\\Users\\Tehila\\Desktop\\chat_app\\Chat\\.dart_tool\\flutter_build\\36e20e127676aae0156004cc1c28c6ea\\native_assets.yaml: 

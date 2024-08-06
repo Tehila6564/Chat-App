@@ -1,0 +1,398 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.chat"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Tehila\Desktop\chat_app\Chat\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\Tehila\Desktop\chat_app\Chat\android\app\src\debug\AndroidManifest.xml:6:22-64
+16    <!--
+17     Required to query activities that can process text, see:
+18         https://developer.android.com/training/package-visibility and
+19         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+20
+21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+22    -->
+23    <queries>
+23-->C:\Users\Tehila\Desktop\chat_app\Chat\android\app\src\main\AndroidManifest.xml:41:5-46:15
+24        <intent>
+24-->C:\Users\Tehila\Desktop\chat_app\Chat\android\app\src\main\AndroidManifest.xml:42:9-45:18
+25            <action android:name="android.intent.action.PROCESS_TEXT" />
+25-->C:\Users\Tehila\Desktop\chat_app\Chat\android\app\src\main\AndroidManifest.xml:43:13-72
+25-->C:\Users\Tehila\Desktop\chat_app\Chat\android\app\src\main\AndroidManifest.xml:43:21-70
+26
+27            <data android:mimeType="text/plain" />
+27-->C:\Users\Tehila\Desktop\chat_app\Chat\android\app\src\main\AndroidManifest.xml:44:13-50
+27-->C:\Users\Tehila\Desktop\chat_app\Chat\android\app\src\main\AndroidManifest.xml:44:19-48
+28        </intent>
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
+31-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:26:22-76
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:24:5-68
+32-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:24:22-65
+33    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+33-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:25:5-79
+33-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:25:22-76
+34    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+34-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:26:5-88
+34-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:26:22-85
+35    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+35-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:27:5-82
+35-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:27:22-79
+36    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+36-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Tehila\.gradle\caches\transforms-3\ceeeeb5c7251f7ed60828b984c4a099d\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+36-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Tehila\.gradle\caches\transforms-3\ceeeeb5c7251f7ed60828b984c4a099d\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+37-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:26:5-110
+37-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:26:22-107
+38
+39    <permission
+39-->[androidx.core:core:1.9.0] C:\Users\Tehila\.gradle\caches\transforms-3\021fabd0ba7fab81470df9835c4807e5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+40        android:name="com.example.chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.9.0] C:\Users\Tehila\.gradle\caches\transforms-3\021fabd0ba7fab81470df9835c4807e5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.9.0] C:\Users\Tehila\.gradle\caches\transforms-3\021fabd0ba7fab81470df9835c4807e5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.example.chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.9.0] C:\Users\Tehila\.gradle\caches\transforms-3\021fabd0ba7fab81470df9835c4807e5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.9.0] C:\Users\Tehila\.gradle\caches\transforms-3\021fabd0ba7fab81470df9835c4807e5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+44
+45    <application
+46        android:name="android.app.Application"
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.9.0] C:\Users\Tehila\.gradle\caches\transforms-3\021fabd0ba7fab81470df9835c4807e5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:extractNativeLibs="false"
+50        android:icon="@mipmap/ic_launcher"
+51        android:label="chat"
+52        android:networkSecurityConfig="@xml/netfree_cert" >
+53        <activity
+54            android:name="com.example.chat.MainActivity"
+55            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+56            android:exported="true"
+57            android:hardwareAccelerated="true"
+58            android:launchMode="singleTop"
+59            android:taskAffinity=""
+60            android:theme="@style/LaunchTheme"
+61            android:windowSoftInputMode="adjustResize" >
+62
+63            <!--
+64                 Specifies an Android theme to apply to this Activity as soon as
+65                 the Android process has started. This theme is visible to the user
+66                 while the Flutter UI initializes. After that, this theme continues
+67                 to determine the Window background behind the Flutter UI.
+68            -->
+69            <meta-data
+70                android:name="io.flutter.embedding.android.NormalTheme"
+71                android:resource="@style/NormalTheme" />
+72
+73            <intent-filter>
+74                <action android:name="android.intent.action.MAIN" />
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+77            </intent-filter>
+78        </activity>
+79        <!--
+80             Don't delete the meta-data below.
+81             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+82        -->
+83        <meta-data
+84            android:name="flutterEmbedding"
+85            android:value="2" />
+86
+87        <service
+87-->[:cloud_firestore] C:\Users\Tehila\Desktop\chat_app\Chat\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+88            android:name="com.google.firebase.components.ComponentDiscoveryService"
+88-->[:cloud_firestore] C:\Users\Tehila\Desktop\chat_app\Chat\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\74666730fbbf156dcabe2dfb187c3add\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+90            android:exported="false" >
+90-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:68:13-37
+91            <meta-data
+91-->[:cloud_firestore] C:\Users\Tehila\Desktop\chat_app\Chat\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+92-->[:cloud_firestore] C:\Users\Tehila\Desktop\chat_app\Chat\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:cloud_firestore] C:\Users\Tehila\Desktop\chat_app\Chat\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+94            <meta-data
+94-->[:firebase_auth] C:\Users\Tehila\Desktop\chat_app\Chat\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+95-->[:firebase_auth] C:\Users\Tehila\Desktop\chat_app\Chat\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:firebase_auth] C:\Users\Tehila\Desktop\chat_app\Chat\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+97            <meta-data
+97-->[:firebase_core] C:\Users\Tehila\Desktop\chat_app\Chat\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+98-->[:firebase_core] C:\Users\Tehila\Desktop\chat_app\Chat\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[:firebase_core] C:\Users\Tehila\Desktop\chat_app\Chat\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:69:13-71:85
+101                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+101-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:70:17-109
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:71:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\4301507cf79963066cf34cc8e2a3f09a\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
+104                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+104-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\4301507cf79963066cf34cc8e2a3f09a\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:18:17-122
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\4301507cf79963066cf34cc8e2a3f09a\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:19:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\4301507cf79963066cf34cc8e2a3f09a\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:20:13-22:85
+107                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+107-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\4301507cf79963066cf34cc8e2a3f09a\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:21:17-111
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\4301507cf79963066cf34cc8e2a3f09a\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:22:17-82
+109            <meta-data
+109-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:37:13-39:85
+110                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+110-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:38:17-139
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:39:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\3d41df1be39cc441ce67b168e67c8cc2\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+113                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+113-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\3d41df1be39cc441ce67b168e67c8cc2\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\3d41df1be39cc441ce67b168e67c8cc2\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\3d41df1be39cc441ce67b168e67c8cc2\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+116                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+116-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\3d41df1be39cc441ce67b168e67c8cc2\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\3d41df1be39cc441ce67b168e67c8cc2\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\968758349e4a02ba9d6d2d07b68efdbc\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+119                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+119-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\968758349e4a02ba9d6d2d07b68efdbc\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\968758349e4a02ba9d6d2d07b68efdbc\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\74666730fbbf156dcabe2dfb187c3add\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+122                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+122-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\74666730fbbf156dcabe2dfb187c3add\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\74666730fbbf156dcabe2dfb187c3add\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+124        </service>
+125
+126        <activity
+126-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:29:9-46:20
+127            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+127-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:30:13-80
+128            android:excludeFromRecents="true"
+128-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:31:13-46
+129            android:exported="true"
+129-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:32:13-36
+130            android:launchMode="singleTask"
+130-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:33:13-44
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+131-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:34:13-72
+132            <intent-filter>
+132-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:35:13-45:29
+133                <action android:name="android.intent.action.VIEW" />
+133-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
+133-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+134
+135                <category android:name="android.intent.category.DEFAULT" />
+135-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+135-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+136                <category android:name="android.intent.category.BROWSABLE" />
+136-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+136-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
+137
+138                <data
+138-->C:\Users\Tehila\Desktop\chat_app\Chat\android\app\src\main\AndroidManifest.xml:44:13-50
+139                    android:host="firebase.auth"
+140                    android:path="/"
+141                    android:scheme="genericidp" />
+142            </intent-filter>
+143        </activity>
+144        <activity
+144-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:47:9-64:20
+145            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+145-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:48:13-79
+146            android:excludeFromRecents="true"
+146-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:49:13-46
+147            android:exported="true"
+147-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:50:13-36
+148            android:launchMode="singleTask"
+148-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:51:13-44
+149            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+149-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:52:13-72
+150            <intent-filter>
+150-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:53:13-63:29
+151                <action android:name="android.intent.action.VIEW" />
+151-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
+151-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+152
+153                <category android:name="android.intent.category.DEFAULT" />
+153-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+153-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+154                <category android:name="android.intent.category.BROWSABLE" />
+154-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+154-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\1f74fbeeecbd5abeb91d7253fbdce67b\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
+155
+156                <data
+156-->C:\Users\Tehila\Desktop\chat_app\Chat\android\app\src\main\AndroidManifest.xml:44:13-50
+157                    android:host="firebase.auth"
+158                    android:path="/"
+159                    android:scheme="recaptcha" />
+160            </intent-filter>
+161        </activity>
+162
+163        <property
+163-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:30:9-32:61
+164            android:name="android.adservices.AD_SERVICES_CONFIG"
+164-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:31:13-65
+165            android:resource="@xml/ga_ad_services_config" />
+165-->[com.google.android.gms:play-services-measurement-api:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\df5b83d8ea490c040523691d3b3ae0ed\transformed\jetified-play-services-measurement-api-22.0.1\AndroidManifest.xml:32:13-58
+166
+167        <service
+167-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+168            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+168-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+169            android:enabled="true"
+169-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+170            android:exported="false" >
+170-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+171            <meta-data
+171-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+172                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+172-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+173                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+173-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+174        </service>
+175
+176        <activity
+176-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+177            android:name="androidx.credentials.playservices.HiddenActivity"
+177-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+178            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+178-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+179            android:enabled="true"
+179-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+180            android:exported="false"
+180-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+181            android:fitsSystemWindows="true"
+181-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+182            android:theme="@style/Theme.Hidden" >
+182-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Tehila\.gradle\caches\transforms-3\1dd7aefe4bead33e17eaae6c6a123a6e\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+183        </activity>
+184
+185        <provider
+185-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\74666730fbbf156dcabe2dfb187c3add\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+186            android:name="com.google.firebase.provider.FirebaseInitProvider"
+186-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\74666730fbbf156dcabe2dfb187c3add\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+187            android:authorities="com.example.chat.firebaseinitprovider"
+187-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\74666730fbbf156dcabe2dfb187c3add\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\74666730fbbf156dcabe2dfb187c3add\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+189            android:exported="false"
+189-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\74666730fbbf156dcabe2dfb187c3add\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+190            android:initOrder="100" />
+190-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Tehila\.gradle\caches\transforms-3\74666730fbbf156dcabe2dfb187c3add\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+191
+192        <receiver
+192-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:29:9-33:20
+193            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+193-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:30:13-85
+194            android:enabled="true"
+194-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:31:13-35
+195            android:exported="false" >
+195-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:32:13-37
+196        </receiver>
+197
+198        <service
+198-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:35:9-38:40
+199            android:name="com.google.android.gms.measurement.AppMeasurementService"
+199-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:36:13-84
+200            android:enabled="true"
+200-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:37:13-35
+201            android:exported="false" />
+201-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:38:13-37
+202        <service
+202-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:39:9-43:72
+203            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+203-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:40:13-87
+204            android:enabled="true"
+204-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:41:13-35
+205            android:exported="false"
+205-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:42:13-37
+206            android:permission="android.permission.BIND_JOB_SERVICE" />
+206-->[com.google.android.gms:play-services-measurement:22.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\bc057ee6837c8a65e309ba611cbc0a32\transformed\jetified-play-services-measurement-22.0.1\AndroidManifest.xml:43:13-69
+207
+208        <activity
+208-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Tehila\.gradle\caches\transforms-3\dd961259756096818eac1408dd263be0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+209            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+209-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Tehila\.gradle\caches\transforms-3\dd961259756096818eac1408dd263be0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+210            android:excludeFromRecents="true"
+210-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Tehila\.gradle\caches\transforms-3\dd961259756096818eac1408dd263be0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+211            android:exported="false"
+211-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Tehila\.gradle\caches\transforms-3\dd961259756096818eac1408dd263be0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+212            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+212-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Tehila\.gradle\caches\transforms-3\dd961259756096818eac1408dd263be0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+213        <!--
+214            Service handling Google Sign-In user revocation. For apps that do not integrate with
+215            Google Sign-In, this service will never be started.
+216        -->
+217        <service
+217-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Tehila\.gradle\caches\transforms-3\dd961259756096818eac1408dd263be0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+218            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+218-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Tehila\.gradle\caches\transforms-3\dd961259756096818eac1408dd263be0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+219            android:exported="true"
+219-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Tehila\.gradle\caches\transforms-3\dd961259756096818eac1408dd263be0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+220            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+220-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Tehila\.gradle\caches\transforms-3\dd961259756096818eac1408dd263be0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+221            android:visibleToInstantApps="true" />
+221-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Tehila\.gradle\caches\transforms-3\dd961259756096818eac1408dd263be0\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+222
+223        <activity
+223-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\f6eb8d5e4a973f257f26405328f344af\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+224            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+224-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\f6eb8d5e4a973f257f26405328f344af\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+225            android:exported="false"
+225-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\f6eb8d5e4a973f257f26405328f344af\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+226            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+226-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tehila\.gradle\caches\transforms-3\f6eb8d5e4a973f257f26405328f344af\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+227
+228        <uses-library
+228-->[androidx.window:window:1.0.0-beta04] C:\Users\Tehila\.gradle\caches\transforms-3\2cd8e4a33bc8bda794948792f9364549\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+229            android:name="androidx.window.extensions"
+229-->[androidx.window:window:1.0.0-beta04] C:\Users\Tehila\.gradle\caches\transforms-3\2cd8e4a33bc8bda794948792f9364549\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+230            android:required="false" />
+230-->[androidx.window:window:1.0.0-beta04] C:\Users\Tehila\.gradle\caches\transforms-3\2cd8e4a33bc8bda794948792f9364549\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+231        <uses-library
+231-->[androidx.window:window:1.0.0-beta04] C:\Users\Tehila\.gradle\caches\transforms-3\2cd8e4a33bc8bda794948792f9364549\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+232            android:name="androidx.window.sidecar"
+232-->[androidx.window:window:1.0.0-beta04] C:\Users\Tehila\.gradle\caches\transforms-3\2cd8e4a33bc8bda794948792f9364549\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+233            android:required="false" />
+233-->[androidx.window:window:1.0.0-beta04] C:\Users\Tehila\.gradle\caches\transforms-3\2cd8e4a33bc8bda794948792f9364549\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+234        <uses-library
+234-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Tehila\.gradle\caches\transforms-3\09ebecd48e35c8b90e8d2bd23759f4af\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+235            android:name="android.ext.adservices"
+235-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Tehila\.gradle\caches\transforms-3\09ebecd48e35c8b90e8d2bd23759f4af\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+236            android:required="false" />
+236-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Tehila\.gradle\caches\transforms-3\09ebecd48e35c8b90e8d2bd23759f4af\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+237
+238        <meta-data
+238-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Tehila\.gradle\caches\transforms-3\7c235945aff00873aafe87660f4a79d4\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+239            android:name="com.google.android.gms.version"
+239-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Tehila\.gradle\caches\transforms-3\7c235945aff00873aafe87660f4a79d4\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+240            android:value="@integer/google_play_services_version" />
+240-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Tehila\.gradle\caches\transforms-3\7c235945aff00873aafe87660f4a79d4\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+241    </application>
+242
+243</manifest>
